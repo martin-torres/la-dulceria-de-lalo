@@ -1,0 +1,1397 @@
+[
+  {
+    "menu_item": "f4cqiqlzcnyxtq3",
+    "language": "es",
+    "description": "Carne asada, arrachera, chorizo y salchicha con arroz y frijoles"
+  },
+  {
+    "menu_item": "f4cqiqlzcnyxtq3",
+    "language": "en",
+    "description": "Grilled steak, skirt steak, chorizo, and sausage served with rice and beans"
+  },
+  {
+    "menu_item": "f4cqiqlzcnyxtq3",
+    "language": "ko",
+    "description": "소고기 구이, 아라체라, 초리소, 소시지 (밥 & 콩 포함)"
+  },
+  {
+    "menu_item": "l5z5hyafjtmiasn",
+    "language": "es",
+    "description": "Pollo entero, 1L de bebida, arroz y frijoles para 4 personas"
+  },
+  {
+    "menu_item": "l5z5hyafjtmiasn",
+    "language": "en",
+    "description": "Whole roasted chicken with 1L drink, served with rice and beans (serves 4)"
+  },
+  {
+    "menu_item": "l5z5hyafjtmiasn",
+    "language": "ko",
+    "description": "통닭구이 + 1L 음료 (밥 & 콩 포함, 4인용)"
+  },
+  {
+    "menu_item": "6wx9uv1adfayesy",
+    "language": "es",
+    "description": "5 tacos de carne asada con bebida incluida"
+  },
+  {
+    "menu_item": "6wx9uv1adfayesy",
+    "language": "en",
+    "description": "5 grilled steak tacos served with a drink"
+  },
+  {
+    "menu_item": "6wx9uv1adfayesy",
+    "language": "ko",
+    "description": "아사다 타코 5개 (음료 포함)"
+  },
+  {
+    "menu_item": "68g0ylb7l5d5dnv",
+    "language": "es",
+    "description": "Huevo machacado, frijoles, café y jugo de naranja"
+  },
+  {
+    "menu_item": "68g0ylb7l5d5dnv",
+    "language": "en",
+    "description": "Scrambled eggs with beans, coffee, and orange juice"
+  },
+  {
+    "menu_item": "68g0ylb7l5d5dnv",
+    "language": "ko",
+    "description": "계란 스크램블, 콩, 커피 & 오렌지 주스"
+  },
+  {
+    "menu_item": "w6xisw8ibnoltr3",
+    "language": "es",
+    "description": "Boneless (10 pzs) con papas a la francesa y bebida"
+  },
+  {
+    "menu_item": "w6xisw8ibnoltr3",
+    "language": "en",
+    "description": "10 boneless wings served with French fries and a drink"
+  },
+  {
+    "menu_item": "w6xisw8ibnoltr3",
+    "language": "ko",
+    "description": "순살치킨 10pcs (감자튀김 & 음료 포함)"
+  },
+  {
+    "menu_item": "rl601z0bfakuo52",
+    "language": "es",
+    "description": "Refresco de cola"
+  },
+  {
+    "menu_item": "rl601z0bfakuo52",
+    "language": "en",
+    "description": "Cola soft drink"
+  },
+  {
+    "menu_item": "rl601z0bfakuo52",
+    "language": "ko",
+    "description": "콜라 음료"
+  },
+  {
+    "menu_item": "t92g7kyey5auwr1",
+    "language": "es",
+    "description": "Refresco de lima-limón"
+  },
+  {
+    "menu_item": "t92g7kyey5auwr1",
+    "language": "en",
+    "description": "Lemon-lime soda"
+  },
+  {
+    "menu_item": "t92g7kyey5auwr1",
+    "language": "ko",
+    "description": "레몬라임 탄산음료"
+  },
+  {
+    "menu_item": "mnhe7i3z0zy5120",
+    "language": "es",
+    "description": "Refresco de toronja"
+  },
+  {
+    "menu_item": "mnhe7i3z0zy5120",
+    "language": "en",
+    "description": "Grapefruit soda"
+  },
+  {
+    "menu_item": "mnhe7i3z0zy5120",
+    "language": "ko",
+    "description": "자몽 탄산음료"
+  },
+  {
+    "menu_item": "1wv2vqynrjmbyss",
+    "language": "es",
+    "description": "Refresco de manzana"
+  },
+  {
+    "menu_item": "1wv2vqynrjmbyss",
+    "language": "en",
+    "description": "Apple soda"
+  },
+  {
+    "menu_item": "1wv2vqynrjmbyss",
+    "language": "ko",
+    "description": "사과 탄산음료"
+  },
+  {
+    "menu_item": "vl319vb3ycaohzm",
+    "language": "es",
+    "description": "Bebida fría de arroz con canela"
+  },
+  {
+    "menu_item": "vl319vb3ycaohzm",
+    "language": "en",
+    "description": "Chilled rice drink with cinnamon"
+  },
+  {
+    "menu_item": "vl319vb3ycaohzm",
+    "language": "ko",
+    "description": "계피 향이 나는 차가운 쌀 음료"
+  },
+  {
+    "menu_item": "46p3qpvy541kxyh",
+    "language": "es",
+    "description": "Bebida fría de flor de jamaica"
+  },
+  {
+    "menu_item": "46p3qpvy541kxyh",
+    "language": "en",
+    "description": "Chilled hibiscus drink"
+  },
+  {
+    "menu_item": "46p3qpvy541kxyh",
+    "language": "ko",
+    "description": "차가운 히비스커스 음료"
+  },
+  {
+    "menu_item": "8y41gvnvy36lq0m",
+    "language": "es",
+    "description": "Bebida fría de limón con pepino"
+  },
+  {
+    "menu_item": "8y41gvnvy36lq0m",
+    "language": "en",
+    "description": "Chilled lime and cucumber drink"
+  },
+  {
+    "menu_item": "8y41gvnvy36lq0m",
+    "language": "ko",
+    "description": "차가운 라임 & 오이 음료"
+  },
+  {
+    "menu_item": "qsysvzqmm96njfe",
+    "language": "es",
+    "description": "Taco de carne molida frita"
+  },
+  {
+    "menu_item": "qsysvzqmm96njfe",
+    "language": "en",
+    "description": "Crispy ground beef taco"
+  },
+  {
+    "menu_item": "qsysvzqmm96njfe",
+    "language": "ko",
+    "description": "바삭한 다진 소고기 타코"
+  },
+  {
+    "menu_item": "jyxgr4d2tvehj9f",
+    "language": "es",
+    "description": "Taco de barbacoa de res"
+  },
+  {
+    "menu_item": "jyxgr4d2tvehj9f",
+    "language": "en",
+    "description": "Slow-cooked beef barbacoa taco"
+  },
+  {
+    "menu_item": "jyxgr4d2tvehj9f",
+    "language": "ko",
+    "description": "슬로우 쿠킹 소고기 바르바코아 타코"
+  },
+  {
+    "menu_item": "9jfomo8rdnig6na",
+    "language": "es",
+    "description": "Taco de carne deshebrada"
+  },
+  {
+    "menu_item": "9jfomo8rdnig6na",
+    "language": "en",
+    "description": "Shredded beef taco"
+  },
+  {
+    "menu_item": "9jfomo8rdnig6na",
+    "language": "ko",
+    "description": "잘게 찢은 소고기 타코"
+  },
+  {
+    "menu_item": "x5bltbq4vtqwt1b",
+    "language": "es",
+    "description": "Taco relleno de papa"
+  },
+  {
+    "menu_item": "x5bltbq4vtqwt1b",
+    "language": "en",
+    "description": "Potato-filled taco"
+  },
+  {
+    "menu_item": "x5bltbq4vtqwt1b",
+    "language": "ko",
+    "description": "감자 속을 채운 타코"
+  },
+  {
+    "menu_item": "akf1h9mex6qafus",
+    "language": "es",
+    "description": "Taco relleno de frijoles"
+  },
+  {
+    "menu_item": "akf1h9mex6qafus",
+    "language": "en",
+    "description": "Bean-filled taco"
+  },
+  {
+    "menu_item": "akf1h9mex6qafus",
+    "language": "ko",
+    "description": "콩을 채운 타코"
+  },
+  {
+    "menu_item": "uqy2xllfgnudlfd",
+    "language": "es",
+    "description": "Taco de chicharrón crujiente"
+  },
+  {
+    "menu_item": "uqy2xllfgnudlfd",
+    "language": "en",
+    "description": "Crispy pork chicharrón taco"
+  },
+  {
+    "menu_item": "uqy2xllfgnudlfd",
+    "language": "ko",
+    "description": "바삭한 치차론 타코"
+  },
+  {
+    "menu_item": "7ahs36yacw7te9h",
+    "language": "es",
+    "description": "Taco de picadillo de res"
+  },
+  {
+    "menu_item": "7ahs36yacw7te9h",
+    "language": "en",
+    "description": "Seasoned ground beef taco"
+  },
+  {
+    "menu_item": "7ahs36yacw7te9h",
+    "language": "ko",
+    "description": "양념 다진 소고기 타코"
+  },
+  {
+    "menu_item": "e1aawcjhux3xegj",
+    "language": "es",
+    "description": "Taco con huevo machacado"
+  },
+  {
+    "menu_item": "e1aawcjhux3xegj",
+    "language": "en",
+    "description": "Scrambled egg taco"
+  },
+  {
+    "menu_item": "e1aawcjhux3xegj",
+    "language": "ko",
+    "description": "스크램블 에그 타코"
+  },
+  {
+    "menu_item": "mpiutekgxw9j1fo",
+    "language": "es",
+    "description": "Taco con huevo en salsa roja"
+  },
+  {
+    "menu_item": "mpiutekgxw9j1fo",
+    "language": "en",
+    "description": "Egg taco in red salsa"
+  },
+  {
+    "menu_item": "mpiutekgxw9j1fo",
+    "language": "ko",
+    "description": "레드 살사 소스를 곁들인 에그 타코"
+  },
+  {
+    "menu_item": "3nbmjfu50jj9rex",
+    "language": "es",
+    "description": "Taco de cortadillo de res"
+  },
+  {
+    "menu_item": "3nbmjfu50jj9rex",
+    "language": "en",
+    "description": "Beef cortadillo taco"
+  },
+  {
+    "menu_item": "3nbmjfu50jj9rex",
+    "language": "ko",
+    "description": "소고기 코르타디요 타코"
+  },
+  {
+    "menu_item": "a3ke0jjo89p6ofw",
+    "language": "es",
+    "description": "Taco con queso y rajas de chile"
+  },
+  {
+    "menu_item": "a3ke0jjo89p6ofw",
+    "language": "en",
+    "description": "Cheese and roasted pepper taco"
+  },
+  {
+    "menu_item": "a3ke0jjo89p6ofw",
+    "language": "ko",
+    "description": "치즈 & 구운 고추 타코"
+  },
+  {
+    "menu_item": "t0r6bu7pvbivd8e",
+    "language": "es",
+    "description": "Taco grande con carne y queso en tortilla de harina"
+  },
+  {
+    "menu_item": "t0r6bu7pvbivd8e",
+    "language": "en",
+    "description": "Large flour tortilla taco with meat and cheese"
+  },
+  {
+    "menu_item": "t0r6bu7pvbivd8e",
+    "language": "ko",
+    "description": "고기 & 치즈가 들어간 대형 밀 또르띠야 타코"
+  },
+  {
+    "menu_item": "o4duhjxorn0cdwn",
+    "language": "es",
+    "description": "Taco grande con trompo y queso en tortilla de harina"
+  },
+  {
+    "menu_item": "o4duhjxorn0cdwn",
+    "language": "en",
+    "description": "Large flour tortilla taco with al pastor and cheese"
+  },
+  {
+    "menu_item": "o4duhjxorn0cdwn",
+    "language": "ko",
+    "description": "알 파스토르 & 치즈가 들어간 대형 밀 또르띠야 타코"
+  },
+  {
+    "menu_item": "xnj8iu4rnvqt61x",
+    "language": "es",
+    "description": "Taco de carne asada"
+  },
+  {
+    "menu_item": "xnj8iu4rnvqt61x",
+    "language": "en",
+    "description": "Grilled steak taco"
+  },
+  {
+    "menu_item": "xnj8iu4rnvqt61x",
+    "language": "ko",
+    "description": "아사다 타코"
+  },
+  {
+    "menu_item": "e7pcxuyrytqgtol",
+    "language": "es",
+    "description": "Taco de arrachera"
+  },
+  {
+    "menu_item": "e7pcxuyrytqgtol",
+    "language": "en",
+    "description": "Skirt steak taco"
+  },
+  {
+    "menu_item": "e7pcxuyrytqgtol",
+    "language": "ko",
+    "description": "스커트 스테이크 타코"
+  },
+  {
+    "menu_item": "51gfl9i0rw5yioi",
+    "language": "es",
+    "description": "Taco de chorizo"
+  },
+  {
+    "menu_item": "51gfl9i0rw5yioi",
+    "language": "en",
+    "description": "Chorizo taco"
+  },
+  {
+    "menu_item": "51gfl9i0rw5yioi",
+    "language": "ko",
+    "description": "초리소 타코"
+  },
+  {
+    "menu_item": "oesfcdzk82bzfjx",
+    "language": "es",
+    "description": "Taco de costilla"
+  },
+  {
+    "menu_item": "oesfcdzk82bzfjx",
+    "language": "en",
+    "description": "Beef rib taco"
+  },
+  {
+    "menu_item": "oesfcdzk82bzfjx",
+    "language": "ko",
+    "description": "소갈비 타코"
+  },
+  {
+    "menu_item": "jggqq76q5kjikrl",
+    "language": "es",
+    "description": "Taco de fajita de res o pollo"
+  },
+  {
+    "menu_item": "jggqq76q5kjikrl",
+    "language": "en",
+    "description": "Beef or chicken fajita taco"
+  },
+  {
+    "menu_item": "jggqq76q5kjikrl",
+    "language": "ko",
+    "description": "소고기 또는 닭고기 파히타 타코"
+  },
+  {
+    "menu_item": "xr8xi0jx7qxttph",
+    "language": "es",
+    "description": "Taco de pollo deshebrado"
+  },
+  {
+    "menu_item": "xr8xi0jx7qxttph",
+    "language": "en",
+    "description": "Shredded chicken taco"
+  },
+  {
+    "menu_item": "xr8xi0jx7qxttph",
+    "language": "ko",
+    "description": "잘게 찢은 닭고기 타코"
+  },
+  {
+    "menu_item": "799vb6vmhi5ttg4",
+    "language": "es",
+    "description": "Chile poblano relleno de queso con arroz y frijoles"
+  },
+  {
+    "menu_item": "799vb6vmhi5ttg4",
+    "language": "en",
+    "description": "Cheese-stuffed poblano pepper served with rice and beans"
+  },
+  {
+    "menu_item": "799vb6vmhi5ttg4",
+    "language": "ko",
+    "description": "치즈로 채운 포블라노 고추 (밥 & 콩 포함)"
+  },
+  {
+    "menu_item": "7chjd9mu9co0fgq",
+    "language": "es",
+    "description": "Milanesa de res empanizada con arroz y frijoles"
+  },
+  {
+    "menu_item": "7chjd9mu9co0fgq",
+    "language": "en",
+    "description": "Breaded beef cutlet served with rice and beans"
+  },
+  {
+    "menu_item": "7chjd9mu9co0fgq",
+    "language": "ko",
+    "description": "빵가루 입힌 소고기 커틀릿 (밥 & 콩 포함)"
+  },
+  {
+    "menu_item": "y0nmpdlskrj6zq1",
+    "language": "es",
+    "description": "Milanesa de pollo empanizada con arroz y frijoles"
+  },
+  {
+    "menu_item": "y0nmpdlskrj6zq1",
+    "language": "en",
+    "description": "Breaded chicken cutlet served with rice and beans"
+  },
+  {
+    "menu_item": "y0nmpdlskrj6zq1",
+    "language": "ko",
+    "description": "빵가루 입힌 닭고기 커틀릿 (밥 & 콩 포함)"
+  },
+  {
+    "menu_item": "ek68orfpovrut4f",
+    "language": "es",
+    "description": "Milanesa de pollo rellena de jamón y queso con guarnición"
+  },
+  {
+    "menu_item": "ek68orfpovrut4f",
+    "language": "en",
+    "description": "Chicken cutlet stuffed with ham and cheese, served with sides"
+  },
+  {
+    "menu_item": "ek68orfpovrut4f",
+    "language": "ko",
+    "description": "햄 & 치즈로 속을 채운 치킨 커틀릿 (사이드 포함)"
+  },
+  {
+    "menu_item": "q5iw1r8qhyxs0o9",
+    "language": "es",
+    "description": "Carne de res en salsa de tomate con arroz y frijoles"
+  },
+  {
+    "menu_item": "q5iw1r8qhyxs0o9",
+    "language": "en",
+    "description": "Beef in tomato sauce served with rice and beans"
+  },
+  {
+    "menu_item": "q5iw1r8qhyxs0o9",
+    "language": "ko",
+    "description": "토마토 소스 소고기 (밥 & 콩 포함)"
+  },
+  {
+    "menu_item": "sdzo93140bgnk1a",
+    "language": "es",
+    "description": "Albóndigas en salsa roja con arroz y frijoles"
+  },
+  {
+    "menu_item": "sdzo93140bgnk1a",
+    "language": "en",
+    "description": "Meatballs in red sauce served with rice and beans"
+  },
+  {
+    "menu_item": "sdzo93140bgnk1a",
+    "language": "ko",
+    "description": "레드 소스 미트볼 (밥 & 콩 포함)"
+  },
+  {
+    "menu_item": "6s9kjupfezlfq9f",
+    "language": "es",
+    "description": "Chicharrón en salsa verde con arroz y frijoles"
+  },
+  {
+    "menu_item": "6s9kjupfezlfq9f",
+    "language": "en",
+    "description": "Pork chicharrón in green sauce served with rice and beans"
+  },
+  {
+    "menu_item": "6s9kjupfezlfq9f",
+    "language": "ko",
+    "description": "그린 소스 치차론 (밥 & 콩 포함)"
+  },
+  {
+    "menu_item": "dh3ji8rapgbm3f7",
+    "language": "es",
+    "description": "Carnitas de cerdo con arroz y frijoles"
+  },
+  {
+    "menu_item": "dh3ji8rapgbm3f7",
+    "language": "en",
+    "description": "Slow-cooked pork carnitas served with rice and beans"
+  },
+  {
+    "menu_item": "dh3ji8rapgbm3f7",
+    "language": "ko",
+    "description": "슬로우 쿠킹 돼지고기 카르니타스 (밥 & 콩 포함)"
+  },
+  {
+    "menu_item": "55bsgcsake4h532",
+    "language": "es",
+    "description": "Carne de res a la parrilla con arroz y frijoles"
+  },
+  {
+    "menu_item": "55bsgcsake4h532",
+    "language": "en",
+    "description": "Grilled beef served with rice and beans"
+  },
+  {
+    "menu_item": "55bsgcsake4h532",
+    "language": "ko",
+    "description": "소고기 그릴구이 (밥 & 콩 포함)"
+  },
+  {
+    "menu_item": "y7pbwq1zfz11de7",
+    "language": "es",
+    "description": "Bistec de res con cebolla y tomate"
+  },
+  {
+    "menu_item": "y7pbwq1zfz11de7",
+    "language": "en",
+    "description": "Beef steak with onions and tomatoes"
+  },
+  {
+    "menu_item": "y7pbwq1zfz11de7",
+    "language": "ko",
+    "description": "양파 & 토마토를 곁들인 소고기 스테이크"
+  },
+  {
+    "menu_item": "awqnkqdgt5pndq5",
+    "language": "es",
+    "description": "Pollo asado entero con arroz y frijoles"
+  },
+  {
+    "menu_item": "awqnkqdgt5pndq5",
+    "language": "en",
+    "description": "Whole roasted chicken served with rice and beans"
+  },
+  {
+    "menu_item": "awqnkqdgt5pndq5",
+    "language": "ko",
+    "description": "통닭구이 (밥 & 콩 포함)"
+  },
+  {
+    "menu_item": "hcwi7b2p1agdyp8",
+    "language": "es",
+    "description": "Medio pollo asado con arroz y frijoles"
+  },
+  {
+    "menu_item": "hcwi7b2p1agdyp8",
+    "language": "en",
+    "description": "Half roasted chicken served with rice and beans"
+  },
+  {
+    "menu_item": "hcwi7b2p1agdyp8",
+    "language": "ko",
+    "description": "반 마리 닭구이 (밥 & 콩 포함)"
+  },
+  {
+    "menu_item": "od675xkdriu6rls",
+    "language": "es",
+    "description": "Pechuga de pollo a la parrilla"
+  },
+  {
+    "menu_item": "od675xkdriu6rls",
+    "language": "en",
+    "description": "Grilled chicken breast"
+  },
+  {
+    "menu_item": "od675xkdriu6rls",
+    "language": "ko",
+    "description": "닭가슴살 그릴구이"
+  },
+  {
+    "menu_item": "fqtm76osp943bm6",
+    "language": "es",
+    "description": "Salchicha argentina a la parrilla"
+  },
+  {
+    "menu_item": "fqtm76osp943bm6",
+    "language": "en",
+    "description": "Argentinian grilled sausage"
+  },
+  {
+    "menu_item": "fqtm76osp943bm6",
+    "language": "ko",
+    "description": "아르헨티나식 소시지 그릴구이"
+  },
+  {
+    "menu_item": "scb04sm40czgzlp",
+    "language": "es",
+    "description": "Chorizo mexicano a la parrilla"
+  },
+  {
+    "menu_item": "scb04sm40czgzlp",
+    "language": "en",
+    "description": "Mexican grilled chorizo"
+  },
+  {
+    "menu_item": "scb04sm40czgzlp",
+    "language": "ko",
+    "description": "멕시코식 초리소 그릴구이"
+  },
+  {
+    "menu_item": "dbejm3x87o7qvot",
+    "language": "es",
+    "description": "Costilla de res a la parrilla"
+  },
+  {
+    "menu_item": "dbejm3x87o7qvot",
+    "language": "en",
+    "description": "Grilled beef ribs"
+  },
+  {
+    "menu_item": "dbejm3x87o7qvot",
+    "language": "ko",
+    "description": "소갈비 그릴구이"
+  },
+  {
+    "menu_item": "gubh42mbcuq0yf3",
+    "language": "es",
+    "description": "Fajitas de res con cebolla y pimiento"
+  },
+  {
+    "menu_item": "gubh42mbcuq0yf3",
+    "language": "en",
+    "description": "Beef fajitas with onions and peppers"
+  },
+  {
+    "menu_item": "gubh42mbcuq0yf3",
+    "language": "ko",
+    "description": "양파 & 피망을 곁들인 소고기 파히타"
+  },
+  {
+    "menu_item": "nd1dcz4jbspuw6q",
+    "language": "es",
+    "description": "Fajitas de pollo con cebolla y pimiento"
+  },
+  {
+    "menu_item": "nd1dcz4jbspuw6q",
+    "language": "en",
+    "description": "Chicken fajitas with onions and peppers"
+  },
+  {
+    "menu_item": "nd1dcz4jbspuw6q",
+    "language": "ko",
+    "description": "양파 & 피망을 곁들인 닭고기 파히타"
+  },
+  {
+    "menu_item": "bvrjfvnbhpks7cj",
+    "language": "es",
+    "description": "Arrachera de res madurada"
+  },
+  {
+    "menu_item": "bvrjfvnbhpks7cj",
+    "language": "en",
+    "description": "Marinated skirt steak"
+  },
+  {
+    "menu_item": "bvrjfvnbhpks7cj",
+    "language": "ko",
+    "description": "양념 숙성 스커트 스테이크"
+  },
+  {
+    "menu_item": "hramkiixrawx7b2",
+    "language": "es",
+    "description": "Un kilogramo de carne para llevar"
+  },
+  {
+    "menu_item": "hramkiixrawx7b2",
+    "language": "en",
+    "description": "1 kg of beef to go"
+  },
+  {
+    "menu_item": "hramkiixrawx7b2",
+    "language": "ko",
+    "description": "포장용 소고기 1kg"
+  },
+  {
+    "menu_item": "y74heawg6xq1656",
+    "language": "es",
+    "description": "Medio kilogramo de carne para llevar"
+  },
+  {
+    "menu_item": "y74heawg6xq1656",
+    "language": "en",
+    "description": "0.5 kg of beef to go"
+  },
+  {
+    "menu_item": "y74heawg6xq1656",
+    "language": "ko",
+    "description": "포장용 소고기 0.5kg"
+  },
+  {
+    "menu_item": "2hfmsy96n4dns3g",
+    "language": "es",
+    "description": "Un kilogramo de pollo para llevar"
+  },
+  {
+    "menu_item": "2hfmsy96n4dns3g",
+    "language": "en",
+    "description": "1 kg of chicken to go"
+  },
+  {
+    "menu_item": "2hfmsy96n4dns3g",
+    "language": "ko",
+    "description": "포장용 닭고기 1kg"
+  },
+  {
+    "menu_item": "bj8wlhzsz721suz",
+    "language": "es",
+    "description": "Medio kilogramo de pollo para llevar"
+  },
+  {
+    "menu_item": "bj8wlhzsz721suz",
+    "language": "en",
+    "description": "0.5 kg of chicken to go"
+  },
+  {
+    "menu_item": "bj8wlhzsz721suz",
+    "language": "ko",
+    "description": "포장용 닭고기 0.5kg"
+  },
+  {
+    "menu_item": "bi5j743jrwhqu7a",
+    "language": "es",
+    "description": "Tostada con pollo deshebrado"
+  },
+  {
+    "menu_item": "bi5j743jrwhqu7a",
+    "language": "en",
+    "description": "Crispy tostada topped with shredded chicken"
+  },
+  {
+    "menu_item": "bi5j743jrwhqu7a",
+    "language": "ko",
+    "description": "잘게 찢은 닭고기를 올린 바삭한 또스타다"
+  },
+  {
+    "menu_item": "g5kupj27fjlmhxf",
+    "language": "es",
+    "description": "Flautas crujientes de pollo o res (3 pzs)"
+  },
+  {
+    "menu_item": "g5kupj27fjlmhxf",
+    "language": "en",
+    "description": "3 crispy chicken or beef flautas"
+  },
+  {
+    "menu_item": "g5kupj27fjlmhxf",
+    "language": "ko",
+    "description": "바삭한 치킨 또는 소고기 플라우타 3pcs"
+  },
+  {
+    "menu_item": "nz7fw77k6ra8e2f",
+    "language": "es",
+    "description": "Enchiladas rojas o verdes con pollo (3 pzs)"
+  },
+  {
+    "menu_item": "nz7fw77k6ra8e2f",
+    "language": "en",
+    "description": "3 chicken enchiladas in red or green sauce"
+  },
+  {
+    "menu_item": "nz7fw77k6ra8e2f",
+    "language": "ko",
+    "description": "레드 또는 그린 소스 치킨 엔칠라다 3pcs"
+  },
+  {
+    "menu_item": "0xx6tdysevactqh",
+    "language": "es",
+    "description": "Taquitos dorados de papa o pollo (5 pzs)"
+  },
+  {
+    "menu_item": "0xx6tdysevactqh",
+    "language": "en",
+    "description": "5 crispy potato or chicken taquitos"
+  },
+  {
+    "menu_item": "0xx6tdysevactqh",
+    "language": "ko",
+    "description": "바삭한 감자 또는 치킨 타키토 5pcs"
+  },
+  {
+    "menu_item": "kmgobdvw6q1oeu6",
+    "language": "es",
+    "description": "Sopes con frijoles, carne y crema (2 pzs)"
+  },
+  {
+    "menu_item": "kmgobdvw6q1oeu6",
+    "language": "en",
+    "description": "2 sopes topped with beans, meat, and crema"
+  },
+  {
+    "menu_item": "kmgobdvw6q1oeu6",
+    "language": "ko",
+    "description": "콩, 고기 & 크레마를 올린 소페스 2pcs"
+  },
+  {
+    "menu_item": "1oi1xil7r57kyhl",
+    "language": "es",
+    "description": "Hamburguesa con queso, lechuga y tomate"
+  },
+  {
+    "menu_item": "1oi1xil7r57kyhl",
+    "language": "en",
+    "description": "Cheeseburger with lettuce and tomato"
+  },
+  {
+    "menu_item": "1oi1xil7r57kyhl",
+    "language": "ko",
+    "description": "치즈버거 (양상추 & 토마토 포함)"
+  },
+  {
+    "menu_item": "jho2s9pevg1vq9o",
+    "language": "es",
+    "description": "Sandwich de jamón y queso"
+  },
+  {
+    "menu_item": "jho2s9pevg1vq9o",
+    "language": "en",
+    "description": "Ham and cheese sandwich"
+  },
+  {
+    "menu_item": "jho2s9pevg1vq9o",
+    "language": "ko",
+    "description": "햄 & 치즈 샌드위치"
+  },
+  {
+    "menu_item": "4aqy6adcua93hmz",
+    "language": "es",
+    "description": "Panini tostado con jamón y queso"
+  },
+  {
+    "menu_item": "4aqy6adcua93hmz",
+    "language": "en",
+    "description": "Grilled panini with ham and cheese"
+  },
+  {
+    "menu_item": "4aqy6adcua93hmz",
+    "language": "ko",
+    "description": "햄 & 치즈 그릴 파니니"
+  },
+  {
+    "menu_item": "lmz7yhttzppzvaf",
+    "language": "es",
+    "description": "Queso fundido con tortillas"
+  },
+  {
+    "menu_item": "lmz7yhttzppzvaf",
+    "language": "en",
+    "description": "Melted cheese served with tortillas"
+  },
+  {
+    "menu_item": "lmz7yhttzppzvaf",
+    "language": "ko",
+    "description": "또르띠야와 함께 제공되는 녹은 치즈"
+  },
+  {
+    "menu_item": "9rvoyt1pm5s2qmx",
+    "language": "es",
+    "description": "Papas fritas crujientes"
+  },
+  {
+    "menu_item": "9rvoyt1pm5s2qmx",
+    "language": "en",
+    "description": "Crispy French fries"
+  },
+  {
+    "menu_item": "9rvoyt1pm5s2qmx",
+    "language": "ko",
+    "description": "바삭한 감자튀김"
+  },
+  {
+    "menu_item": "bibiptqx543yarg",
+    "language": "es",
+    "description": "Alitas picantes crujientes (10 pzs)"
+  },
+  {
+    "menu_item": "bibiptqx543yarg",
+    "language": "en",
+    "description": "10 spicy crispy chicken wings"
+  },
+  {
+    "menu_item": "bibiptqx543yarg",
+    "language": "ko",
+    "description": "매콤한 바삭 치킨 윙 10pcs"
+  },
+  {
+    "menu_item": "y9yq9wfzdmnpxk6",
+    "language": "es",
+    "description": "Nuggets de pollo (8 pzs)"
+  },
+  {
+    "menu_item": "y9yq9wfzdmnpxk6",
+    "language": "en",
+    "description": "8 chicken nuggets"
+  },
+  {
+    "menu_item": "y9yq9wfzdmnpxk6",
+    "language": "ko",
+    "description": "치킨 너겟 8pcs"
+  },
+  {
+    "menu_item": "wccxkns3sfvwj6j",
+    "language": "es",
+    "description": "Trozos de pollo sin hueso (8 pzs)"
+  },
+  {
+    "menu_item": "wccxkns3sfvwj6j",
+    "language": "en",
+    "description": "8 boneless chicken pieces"
+  },
+  {
+    "menu_item": "wccxkns3sfvwj6j",
+    "language": "ko",
+    "description": "순살 치킨 8pcs"
+  },
+  {
+    "menu_item": "tz0wbhsl5xg2h5y",
+    "language": "es",
+    "description": "Caldo de res caliente"
+  },
+  {
+    "menu_item": "tz0wbhsl5xg2h5y",
+    "language": "en",
+    "description": "Hot beef broth"
+  },
+  {
+    "menu_item": "tz0wbhsl5xg2h5y",
+    "language": "ko",
+    "description": "따뜻한 소고기 육수"
+  },
+  {
+    "menu_item": "eynnn4jpy42uljo",
+    "language": "es",
+    "description": "Caldo de pollo con arroz y verduras"
+  },
+  {
+    "menu_item": "eynnn4jpy42uljo",
+    "language": "en",
+    "description": "Chicken broth with rice and vegetables"
+  },
+  {
+    "menu_item": "eynnn4jpy42uljo",
+    "language": "ko",
+    "description": "밥 & 채소가 들어간 닭고기 육수"
+  },
+  {
+    "menu_item": "w1gdhdr0u5r50uc",
+    "language": "es",
+    "description": "Sopa caliente del día"
+  },
+  {
+    "menu_item": "w1gdhdr0u5r50uc",
+    "language": "en",
+    "description": "Hot soup of the day"
+  },
+  {
+    "menu_item": "w1gdhdr0u5r50uc",
+    "language": "ko",
+    "description": "오늘의 따뜻한 수프"
+  },
+  {
+    "menu_item": "0ukagcs4t4uzpyq",
+    "language": "es",
+    "description": "Café negro americano"
+  },
+  {
+    "menu_item": "0ukagcs4t4uzpyq",
+    "language": "en",
+    "description": "American black coffee"
+  },
+  {
+    "menu_item": "0ukagcs4t4uzpyq",
+    "language": "ko",
+    "description": "아메리카노 블랙 커피"
+  },
+  {
+    "menu_item": "rrj01pcs5xvzzcs",
+    "language": "es",
+    "description": "Espresso intenso"
+  },
+  {
+    "menu_item": "rrj01pcs5xvzzcs",
+    "language": "en",
+    "description": "Strong espresso"
+  },
+  {
+    "menu_item": "rrj01pcs5xvzzcs",
+    "language": "ko",
+    "description": "진한 에스프레소"
+  },
+  {
+    "menu_item": "q1bfux0e86nfywe",
+    "language": "es",
+    "description": "Café con leche cremosa"
+  },
+  {
+    "menu_item": "q1bfux0e86nfywe",
+    "language": "en",
+    "description": "Creamy coffee with milk"
+  },
+  {
+    "menu_item": "q1bfux0e86nfywe",
+    "language": "ko",
+    "description": "우유가 들어간 크리미 커피"
+  },
+  {
+    "menu_item": "etb3smffa3dktb2",
+    "language": "es",
+    "description": "Cappuccino italiano"
+  },
+  {
+    "menu_item": "etb3smffa3dktb2",
+    "language": "en",
+    "description": "Italian cappuccino"
+  },
+  {
+    "menu_item": "etb3smffa3dktb2",
+    "language": "ko",
+    "description": "이탈리안 카푸치노"
+  },
+  {
+    "menu_item": "bypu6kwdf39my6v",
+    "language": "es",
+    "description": "Café con espuma de leche"
+  },
+  {
+    "menu_item": "bypu6kwdf39my6v",
+    "language": "en",
+    "description": "Coffee with milk foam"
+  },
+  {
+    "menu_item": "bypu6kwdf39my6v",
+    "language": "ko",
+    "description": "우유 거품이 올려진 커피"
+  },
+  {
+    "menu_item": "klz9hgyyjnk4tyq",
+    "language": "es",
+    "description": "Café frío prensado"
+  },
+  {
+    "menu_item": "klz9hgyyjnk4tyq",
+    "language": "en",
+    "description": "Cold brewed coffee"
+  },
+  {
+    "menu_item": "klz9hgyyjnk4tyq",
+    "language": "ko",
+    "description": "콜드 브루 커피"
+  },
+  {
+    "menu_item": "02xd8k68h9359gw",
+    "language": "es",
+    "description": "Café frappé con hielo"
+  },
+  {
+    "menu_item": "02xd8k68h9359gw",
+    "language": "en",
+    "description": "Iced coffee frappé"
+  },
+  {
+    "menu_item": "02xd8k68h9359gw",
+    "language": "ko",
+    "description": "아이스 커피 프라페"
+  },
+  {
+    "menu_item": "0q63elp1ewjqqyc",
+    "language": "es",
+    "description": "Café con chocolate y leche"
+  },
+  {
+    "menu_item": "0q63elp1ewjqqyc",
+    "language": "en",
+    "description": "Coffee with chocolate and milk"
+  },
+  {
+    "menu_item": "0q63elp1ewjqqyc",
+    "language": "ko",
+    "description": "초콜릿 & 우유가 들어간 커피"
+  },
+  {
+    "menu_item": "kje361w3yg0qyho",
+    "language": "es",
+    "description": "Arroz blanco"
+  },
+  {
+    "menu_item": "kje361w3yg0qyho",
+    "language": "en",
+    "description": "White rice"
+  },
+  {
+    "menu_item": "kje361w3yg0qyho",
+    "language": "ko",
+    "description": "흰 쌀밥"
+  },
+  {
+    "menu_item": "yjcl7jp2bxa8xug",
+    "language": "es",
+    "description": "Frijoles charros"
+  },
+  {
+    "menu_item": "yjcl7jp2bxa8xug",
+    "language": "en",
+    "description": "Charro beans"
+  },
+  {
+    "menu_item": "yjcl7jp2bxa8xug",
+    "language": "ko",
+    "description": "차로 콩"
+  },
+  {
+    "menu_item": "0wnt5gj56i2ktu4",
+    "language": "es",
+    "description": "Salsa verde fresca"
+  },
+  {
+    "menu_item": "0wnt5gj56i2ktu4",
+    "language": "en",
+    "description": "Fresh green salsa"
+  },
+  {
+    "menu_item": "0wnt5gj56i2ktu4",
+    "language": "ko",
+    "description": "신선한 그린 살사"
+  },
+  {
+    "menu_item": "owrgnmlay0se5y9",
+    "language": "es",
+    "description": "Salsa roja picante"
+  },
+  {
+    "menu_item": "owrgnmlay0se5y9",
+    "language": "en",
+    "description": "Spicy red salsa"
+  },
+  {
+    "menu_item": "owrgnmlay0se5y9",
+    "language": "ko",
+    "description": "매운 레드 살사"
+  },
+  {
+    "menu_item": "io11qm14cc1u9s2",
+    "language": "es",
+    "description": "Tortillas de maíz (6 pzs)"
+  },
+  {
+    "menu_item": "io11qm14cc1u9s2",
+    "language": "en",
+    "description": "Corn tortillas (6 pcs)"
+  },
+  {
+    "menu_item": "io11qm14cc1u9s2",
+    "language": "ko",
+    "description": "옥수수 또르띠야 6pcs"
+  },
+  {
+    "menu_item": "8wqetih20sl6ask",
+    "language": "es",
+    "description": "Tortillas de harina (4 pzs)"
+  },
+  {
+    "menu_item": "8wqetih20sl6ask",
+    "language": "en",
+    "description": "Flour tortillas (4 pcs)"
+  },
+  {
+    "menu_item": "8wqetih20sl6ask",
+    "language": "ko",
+    "description": "밀가루 또르띠야 4pcs"
+  },
+  {
+    "menu_item": "v0nqtra5a1e9xr9",
+    "language": "es",
+    "description": "Crema ácida"
+  },
+  {
+    "menu_item": "v0nqtra5a1e9xr9",
+    "language": "en",
+    "description": "Sour cream"
+  },
+  {
+    "menu_item": "v0nqtra5a1e9xr9",
+    "language": "ko",
+    "description": "사워 크림"
+  },
+  {
+    "menu_item": "blzfudgp6yowxmb",
+    "language": "es",
+    "description": "Guacamole fresco"
+  },
+  {
+    "menu_item": "blzfudgp6yowxmb",
+    "language": "en",
+    "description": "Fresh guacamole"
+  },
+  {
+    "menu_item": "blzfudgp6yowxmb",
+    "language": "ko",
+    "description": "신선한 과카몰레"
+  },
+  {
+    "menu_item": "v03u0pwjovpw8l4",
+    "language": "es",
+    "description": "Flan de vainilla con caramelo"
+  },
+  {
+    "menu_item": "v03u0pwjovpw8l4",
+    "language": "en",
+    "description": "Vanilla flan with caramel"
+  },
+  {
+    "menu_item": "v03u0pwjovpw8l4",
+    "language": "ko",
+    "description": "카라멜이 올려진 바닐라 푸딩"
+  },
+  {
+    "menu_item": "okcpy89mka8pp47",
+    "language": "es",
+    "description": "Pastel de tres leches"
+  },
+  {
+    "menu_item": "okcpy89mka8pp47",
+    "language": "en",
+    "description": "Three milk cake"
+  },
+  {
+    "menu_item": "okcpy89mka8pp47",
+    "language": "ko",
+    "description": "트레스 레체스 케이크"
+  },
+  {
+    "menu_item": "im1zxrydur6be3u",
+    "language": "es",
+    "description": "Flan de pistache con caramelo"
+  },
+  {
+    "menu_item": "im1zxrydur6be3u",
+    "language": "en",
+    "description": "Pistachio flan with caramel"
+  },
+  {
+    "menu_item": "im1zxrydur6be3u",
+    "language": "ko",
+    "description": "카라멜이 올려진 피스타치오 푸딩"
+  },
+  {
+    "menu_item": "5hmscc24u0q81v2",
+    "language": "es",
+    "description": "Crepa rellena de pistache"
+  },
+  {
+    "menu_item": "5hmscc24u0q81v2",
+    "language": "en",
+    "description": "Pistachio-filled crepe"
+  },
+  {
+    "menu_item": "5hmscc24u0q81v2",
+    "language": "ko",
+    "description": "피스타치오가 채워진 크레페"
+  },
+  {
+    "menu_item": "40dphkfahb3f9xh",
+    "language": "es",
+    "description": "Arroz con leche y canela"
+  },
+  {
+    "menu_item": "40dphkfahb3f9xh",
+    "language": "en",
+    "description": "Rice pudding with cinnamon"
+  },
+  {
+    "menu_item": "40dphkfahb3f9xh",
+    "language": "ko",
+    "description": "계피가 들어간 쌀 푸딩"
+  },
+  {
+    "menu_item": "ee2pmxquulsv3zq",
+    "language": "es",
+    "description": "Dulces de leche glaseados"
+  },
+  {
+    "menu_item": "ee2pmxquulsv3zq",
+    "language": "en",
+    "description": "Glazed milk candies"
+  },
+  {
+    "menu_item": "ee2pmxquulsv3zq",
+    "language": "ko",
+    "description": "글레이즈 처리된 우유 사탕"
+  },
+  {
+    "menu_item": "w8l8cmz6pgo8jez",
+    "language": "es",
+    "description": "Gelatina de diferentes sabores"
+  },
+  {
+    "menu_item": "w8l8cmz6pgo8jez",
+    "language": "en",
+    "description": "Assorted flavor gelatin"
+  },
+  {
+    "menu_item": "w8l8cmz6pgo8jez",
+    "language": "ko",
+    "description": "여러 맛 젤리"
+  }
+]

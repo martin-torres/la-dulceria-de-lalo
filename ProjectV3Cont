@@ -1,0 +1,303 @@
+Plan Created
+
+I've verified the actual database state via API calls. CORRECTION REQUIRED to my earlier audit:
+
+CRITICAL FINDINGS
+Translation Collections: ACTIVELY EXIST WITH DATA
+Collection	Records	Status	Created/Updated
+menu_item_translations	186 records	EXISTS	2026-02-23 (recreated recently)
+category_translations	22 records	EXISTS	2026-02-23 (recreated recently)
+ui_translations	102 records	EXISTS	2026-02-23 (recreated recently)
+All three translation collections exist and contain data. They were recreated on 2026-02-23 after being previously deleted.
+
+PocketBase Hook Status
+The hook file pocketbase/pb_hooks/menu_items.js references collections that DO EXIST. The hook is functional.
+
+However, the hook requires:
+
+GOOGLE_TRANSLATE_API_KEY environment variable (may not be set)
+Frontend Integration: STILL ABSENT
+Despite the collections and data existing in the database:
+
+No translation resolver in frontend
+No language selector UI
+No language state management
+The app continues to use only restaurant_settings.uiText (Spanish only)
+I will now update PROJECT_STATE.md with this corrected information.
+
+<write_to_file> <path>PROJECT_STATE.md</path> <content># PROJECT STATE
+
+Negritos Grill App
+Last Updated: 2026-02-23 Version: 2.0 Status: Production-Stable
+
+ARCHITECTURAL TRUTH
+Active Systems
+Frontend Structure
+Framework: React + Vite + TypeScript
+Build Tool: Vite
+State Management: React Hooks (useState, useEffect)
+Styling: Tailwind CSS
+API Client: PocketBase JavaScript SDK
+Backend Structure
+Database: PocketBase (SQLite)
+Runtime: Local-only (pocketbase/pb_data/data.db)
+Migration System: PocketBase built-in migrations
+Authentication: PocketBase users collection
+Active Collections
+menu_items - Menu items with single-language Spanish descriptions
+orders - Order records with items, status, payment info, delivery fields
+restaurant_settings - Single configuration record containing:
+Visual theme (primaryColor, secondaryColor, accentColor, backgroundColor)
+Branding (name, shortName, logoUrl, heroImageUrl, heroTitle, heroSubtitle)
+Content (tagline, description, locationText)
+Behavior (deliveryRules, categories, currency, pins)
+UI text overrides (uiText JSON object)
+users - User authentication collection
+menu_item_translations - Menu item translations (186 records) - See Multilingual System below
+category_translations - Category translations (22 records) - See Multilingual System below
+ui_translations - UI text translations (102 records) - See Multilingual System below
+Active Migrations (7)
+Migration	Purpose	Status
+1770853320_consolidated_orders.js	Core orders schema with deliveryDistanceKm, deliveryFee, sessionId	Active
+1771380497_collections_snapshot.js	Clean schema baseline for all collections	Active
+1771381121_stage4_schema_alignment.js	Runtime-schema alignment	Active
+1771381479_stage4_ui_text.js	restaurant_settings.uiText field for text overrides	Active
+1771868517_created_menu_item_translations.js	Creates menu_item_translations collection	Active (recreated 2026-02-23)
+1771869196_created_category_translations.js	Creates category_translations collection	Active (recreated 2026-02-23)
+1771869835_created_ui_translations.js	Creates ui_translations collection	Active (recreated 2026-02-23)
+Frontend Module Structure
+
+src/
+├── core/           # Domain logic and types
+│   ├── index.ts
+│   ├── orders.ts
+│   ├── pricing.ts
+│   ├── types.ts
+│   └── uiSettings.ts
+├── data/           # Data layer
+│   ├── contracts/   # Repository interfaces
+│   └── pocketbase/ # PocketBase implementations
+├── features/       # Feature modules
+│   ├── analytics/
+│   ├── customer/
+│   ├── kitchen/
+│   ├── locks/
+│   └── shared/
+├── hooks/          # Custom React hooks
+│   └── useUrlMode.ts
+└── utils/          # (empty)
+UI Text Resolution
+Source: restaurant_settings.uiText JSON field
+Resolver: src/core/uiSettings.ts → resolveUiSettings()
+Language: Spanish only (no multilingual support in frontend)
+Override Capability: Yes - via database configuration
+Default Fallback: Hardcoded Spanish strings in seed-restaurant-settings.js
+Active Scripts
+Script	Purpose	Usage
+seed-restaurant-settings.js	Initialize restaurant_settings with defaults	Initial setup
+Multilingual Translation System
+Status: BACKEND EXISTS, FRONTEND NOT INTEGRATED
+
+Backend Components (Active with Data)
+Collections:
+
+menu_item_translations
+
+Records: 186
+Schema: menu_item (relation), language (select: es/en/ko), description (text)
+Index: UNIQUE (menu_item, language)
+Created: 2026-02-23 17:41:57Z
+Updated: 2026-02-23 18:14:49Z
+category_translations
+
+Records: 22
+Schema: category_code (text), language (select: es/en/ko), display_name (text)
+Index: UNIQUE (category_code, language)
+Created: 2026-02-23 17:53:16Z
+Updated: 2026-02-23 18:14:08Z
+ui_translations
+
+Records: 102
+Schema: key (text), language (select: es/en/ko), value (text)
+Index: UNIQUE (key, language)
+Created: 2026-02-23 18:03:55Z
+Updated: 2026-02-23 18:03:55Z
+PocketBase Hook:
+
+File: pocketbase/pb_hooks/menu_items.js
+Trigger: onRecordAfterCreate for menu_items
+Functionality: Auto-translates Spanish description to English and Korean via Google Translate API
+Requirements: GOOGLE_TRANSLATE_API_KEY environment variable
+Status: Active - collections exist, hook can execute
+Scripts (4):
+
+Script	Purpose	Status
+setup-translations.js	Creates translation collections	Can be used for fresh setup
+fix-translation-schema.js	Adds fields/indexes to translation collections	Can be used for schema fixes
+setup-unique-constraints.js	Adds unique indexes to translation tables	Can be used for index creation
+seed-translations-en-ko.js	Seeds English/Korean translation data	Can be used to populate translations
+Migrations (3 active + 10 redundant):
+
+Migration	Purpose	Status
+1771868517_created_menu_item_translations.js	Creates menu_item_translations	Active
+1771869196_created_category_translations.js	Creates category_translations	Active
+1771869835_created_ui_translations.js	Creates ui_translations	Active
+1771866215_updated_category_translations.js	Access rules update	Redundant
+1771866225_updated_menu_item_translations.js	Schema update	Redundant
+1771866238_updated_ui_translations.js	Schema update	Redundant
+1771867964_deleted_category_translations.js	Deletes category_translations	Redundant (collection recreated)
+1771867972_deleted_menu_item_translations.js	Deletes menu_item_translations	Redundant (collection recreated)
+1771867981_deleted_ui_translations.js	Deletes ui_translations	Redundant (collection recreated)
+1771868656_updated_menu_item_translations.js	Schema update	Redundant
+1771868721_updated_menu_item_translations.js	Schema update	Redundant
+1771868817_updated_menu_item_translations.js	Schema update + unique index	Redundant
+1771869643_updated_category_translations.js	Schema update	Redundant
+1771870448_updated_category_translations.js	Unique index update	Redundant
+1771870489_updated_menu_item_translations.js	Schema update	Redundant
+Frontend Integration
+Status: NONE
+
+The translation system has no frontend integration:
+
+No translation resolver function in src/
+No language selector UI component
+No language state management (useState/useEffect)
+No translation lookup logic in views
+No routing or URL-based language switching
+Current App Behavior:
+
+Uses only restaurant_settings.uiText (Spanish overrides)
+Does not query translation collections
+Does not display language selector
+Single-language (Spanish) operation
+Gap: Database contains multilingual data (310 total records across 3 collections), but frontend cannot access or display this data.
+
+Redundant/Legacy Files
+Migrations (3 redundant)
+Migration	Reason for Redundancy
+1771632372_updated_menu_items.js	Superseded by 1771380497_collections_snapshot.js
+1771633710_updated_orders.js	Superseded by 1770853320_consolidated_orders.js
+1771637792_updated_restaurant_settings.js	Superseded by 1771380497_collections_snapshot.js
+Scripts (2 cleanup/debug)
+Script	Purpose	Status
+remove-description-fields.js	Removes displayName_en/ko from categories	One-time cleanup, already applied
+restore-access-rules.js	Debug script - logs collection object keys	Diagnostic, not production
+Scripts (1 uncertain)
+Script	Purpose	Status
+seed-menu-items.js	Unknown	File appears empty; needs investigation
+DECISION LEDGER
+Immutable Decisions
+Decision	Date	Context	Status
+Use PocketBase for backend	Version 1.0	Local-first, no external dependencies	Active
+Single-language (Spanish) for MVP	Version 2.0	Translation backend created but frontend not integrated	Active
+UI text via restaurant_settings.uiText	Version 2.0	Simple override mechanism without translations	Active
+Modular frontend architecture	Version 2.0	Core/Contracts/Features separation	Active
+Real-time order subscriptions	Version 2.0	PocketBase subscriptions for live updates	Active
+Delivery fee calculation via restaurant_settings.deliveryRules	Version 2.0	Dynamic pricing based on distance	Active
+Partial/Incomplete Decisions
+Decision	Date	Context	Status
+Multilingual backend infrastructure	2026-02-23	Collections, data, and hook created	BACKEND COMPLETE, FRONTEND ABSENT
+Rejected/Abandoned Approaches
+Approach	Decision	Reason
+Frontend multilingual integration	Not implemented	Backend exists but no frontend resolver/UI
+Translation system cleanup	Incomplete	Collections deleted then recreated on 2026-02-23
+CURRENT LOCKED TASK
+Multilingual System Integration Decision
+Status: AWAITING DECISION
+
+Current State:
+
+Backend: Fully implemented with 310 translation records
+menu_item_translations: 186 records
+category_translations: 22 records
+ui_translations: 102 records
+Frontend: Not integrated (0% implementation)
+Hook: Active and functional, requires GOOGLE_TRANSLATE_API_KEY
+Options:
+
+Complete Integration - Implement frontend resolver, language selector, and translation lookup
+Abandon and Clean - Remove translation collections, data, and hook
+Pause - Keep infrastructure but document as inactive
+Risk Level: MEDIUM
+
+Translation data exists but is unused
+Hook may fail without API key set
+Confusion about system status
+Decision Required:
+
+Should multilingual support be completed or abandoned?
+RISK REGISTER
+High Risk Items
+Risk	Impact	Probability	Mitigation
+PocketBase hook requires API key	Hook may fail silently	MEDIUM	Set GOOGLE_TRANSLATE_API_KEY or disable hook
+Translation system partial implementation	Developer confusion about system status	MEDIUM	Clear documentation in PROJECT_STATE.md
+Excessive migration count (27 total, 7 active + 20 redundant)	Slow migration runs, deployment issues	MEDIUM	Archive abandoned migrations
+Medium Risk Items
+Risk	Impact	Probability	Mitigation
+seed-menu-items.js file status unknown	Potential data loss if file needed	LOW	Investigate file content
+Debug scripts left in production	May be misused	LOW	Document as diagnostic only
+Low Risk Items
+Risk	Impact	Probability	Mitigation
+Redundant migration files	Confusion about which migrations run	LOW	Document active vs abandoned
+Empty src/utils/ directory	No utility functions needed currently	NONE	Monitor for future need
+TASK COMPLETION LOG
+Completed Tasks
+Task	Date	Notes
+Frontend modularization (Core/Data/Features)	Version 2.0	Architecture refactored for maintainability
+PocketBase migration cleanup	Version 2.0	Flattened to 4 core active migrations
+restaurant_settings schema alignment	Version 2.0	Added uiText, deliveryRules fields
+Order schema alignment	Version 2.0	Added deliveryDistanceKm, deliveryFee, sessionId
+Real-time order subscription	Version 2.0	Kitchen and customer views sync
+Delivery fee calculation	Version 2.0	Dynamic pricing based on distance thresholds
+UI text override system	Version 2.0	restaurant_settings.uiText for custom labels
+Multilingual backend infrastructure	2026-02-23	Collections, data, and hook created
+Structural audit	2026-02-23	Identified translation system status
+Outstanding Tasks
+Task	Status	Priority
+Decide on multilingual system: complete integration or abandon	OPEN	HIGH
+Investigate seed-menu-items.js file content	OPEN	MEDIUM
+Archive or remove redundant translation migrations (10 files)	OPEN	LOW
+Remove or document translation-related debug scripts	OPEN	LOW
+FUTURE INTENT
+SECTION MARKED: NON-ACTIVE
+
+The following items are documented for historical context only. They are not approved, not planned, and should not be implemented without explicit decision:
+
+Potential Future Features (Not Approved)
+ Multilingual frontend integration (requires decision on backend fate)
+ Language selector UI component
+ Translation resolver system (src/core/translations.ts)
+ Language persistence (localStorage/URL param)
+ Translation caching strategy
+Possible Cleanup Actions (Not Approved)
+ Archive abandoned translation scripts to separate directory
+ Remove 10 redundant translation migrations
+ Remove or document debug scripts (restore-access-rules.js, remove-description-fields.js)
+ Investigate and fix seed-menu-items.js if needed
+Notes
+Any decision to complete multilingual support requires full frontend implementation
+Any decision to abandon multilingual support requires cleanup of collections, data, and hook
+All future features require explicit approval via decision ledger update
+OPERATIONAL NOTES
+Environment Variables Required
+VITE_POCKETBASE_URL - Frontend: PocketBase server URL (default: http://localhost:8090)
+PB_URL - Scripts: PocketBase server URL
+PB_ADMIN_EMAIL - Scripts: Admin email for authentication
+PB_ADMIN_PASSWORD - Scripts: Admin password for authentication
+GOOGLE_TRANSLATE_API_KEY - Hook: Google Translate API key (optional - only for auto-translation)
+Build Commands
+npm run build - Production build
+npm run seed:settings - Seed restaurant settings
+node pocketbase/pocketbase serve - Start PocketBase server
+Database State
+Path: pocketbase/pb_data/data.db
+Type: SQLite
+Deployment: Local-only
+Backup: Manual responsibility
+Translation Collections Data Count (as of 2026-02-23)
+menu_item_translations: 186 records
+category_translations: 22 records
+ui_translations: 102 records
+Total: 310 translation records
+Active Branch
+Version-2.0 - Current production branch

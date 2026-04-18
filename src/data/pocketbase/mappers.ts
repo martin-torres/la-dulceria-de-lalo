@@ -1,0 +1,68 @@
+import type { MenuItem, Order, OrderStatus, PromoItem } from '../../core/types';
+
+type RawRecord = Record<string, unknown> & { id: string };
+
+const asNumber = (value: unknown, fallback = 0): number => {
+  if (typeof value === 'number' && Number.isFinite(value)) return value;
+  if (typeof value === 'string') {
+    const parsed = Number(value);
+    return Number.isFinite(parsed) ? parsed : fallback;
+  }
+  return fallback;
+};
+
+const asString = (value: unknown, fallback = ''): string =>
+  typeof value === 'string' ? value : fallback;
+
+const asBoolean = (value: unknown, fallback = false): boolean => {
+  if (typeof value === 'boolean') return value;
+  if (typeof value === 'string') return value.toLowerCase() === 'true';
+  return fallback;
+};
+
+export const toMenuItem = (record: RawRecord): MenuItem => ({
+  id: record.id,
+  name: asString(record.name),
+  description: asString(record.description),
+  price: asNumber(record.price),
+  category: (asString(record.category) || 'pollo') as MenuItem['category'],
+  image: asString(record.image),
+  isWeightBased: asBoolean(record.isWeightBased),
+  weightPricePerKg: record.weightPricePerKg === undefined ? undefined : asNumber(record.weightPricePerKg),
+});
+
+export const toPromoItem = (record: RawRecord): PromoItem => ({
+  ...toMenuItem(record),
+  category: 'promo',
+  active: asBoolean(record.active),
+});
+
+export const toOrder = (record: RawRecord): Order => {
+  const status = asString(record.status, 'recibido') as OrderStatus;
+  const rawItems = Array.isArray(record.items) ? record.items : [];
+
+  return {
+    id: record.id,
+    collectionId: record.collectionId ? asString(record.collectionId) : undefined,
+    collectionName: record.collectionName ? asString(record.collectionName) : undefined,
+    customerName: asString(record.customerName),
+    customerAddress: asString(record.customerAddress),
+    items: rawItems as Order['items'],
+    total: asNumber(record.total),
+    status,
+    paymentMethod: asString(record.paymentMethod, 'efectivo') as Order['paymentMethod'],
+    payWithAmount: record.payWithAmount === undefined ? undefined : asNumber(record.payWithAmount),
+    transferScreenshot: record.transferScreenshot
+      ? asString(record.transferScreenshot)
+      : undefined,
+    deliveryDistanceKm:
+      record.deliveryDistanceKm === undefined ? undefined : asNumber(record.deliveryDistanceKm),
+    deliveryFee: record.deliveryFee === undefined ? undefined : asNumber(record.deliveryFee),
+    timestamp: asNumber(record.timestamp, Date.now()),
+    statusTimestamps:
+      typeof record.statusTimestamps === 'object' && record.statusTimestamps !== null
+        ? (record.statusTimestamps as Order['statusTimestamps'])
+        : {},
+    sessionId: record.sessionId ? asString(record.sessionId) : undefined,
+  };
+};
