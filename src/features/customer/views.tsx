@@ -345,6 +345,7 @@ export const MenuView = ({
 
 export const CheckoutView = ({
   cart,
+  setCart,
   addToCart,
   removeFromCart,
   setActiveScreen,
