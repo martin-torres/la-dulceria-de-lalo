@@ -95,10 +95,21 @@ export const KitchenView = ({
                 <ul className="space-y-4">
                   {order.items.map((item: any, idx: number) => (
                     <li key={idx} className="flex justify-between items-start border-b border-gray-100 pb-2">
-                      <span className="font-black text-xl leading-tight text-gray-900">
-                        {item.quantity}x {item.name}
-                        {item.weightInGrams && <span className="text-sm font-bold text-gray-600 ml-1">({item.weightInGrams}g)</span>}
-                      </span>
+                      <div className="flex-1">
+                        <span className="font-black text-xl leading-tight text-gray-900">
+                          {item.quantity}x {item.name}
+                          {item.weightInGrams && <span className="text-sm font-bold text-gray-600 ml-1">({item.weightInGrams}g)</span>}
+                        </span>
+                        {item.isBundle && item.bundleItems && (
+                          <div className="mt-1 ml-4 space-y-0.5">
+                            {item.bundleItems.map((bundleItem: any, bidx: number) => (
+                              <p key={bidx} className="text-sm text-gray-600">
+                                {bundleItem.quantity}x {bundleItem.name}
+                              </p>
+                            ))}
+                          </div>
+                        )}
+                      </div>
                     </li>
                   ))}
                 </ul>

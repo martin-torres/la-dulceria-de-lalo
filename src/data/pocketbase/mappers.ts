@@ -51,6 +51,10 @@ export const toPromoItem = (record: RawRecord): PromoItem => ({
   ...toMenuItem(record),
   category: 'promo',
   active: asBoolean(record.active),
+  bundleItems: asJson(record.bundleItems, undefined),
+  discountType: asString(record.discountType, undefined) as 'fixed' | 'percent' | undefined,
+  discountValue: record.discountValue === undefined ? undefined : asNumber(record.discountValue),
+  originalPrice: record.originalPrice === undefined ? undefined : asNumber(record.originalPrice),
 });
 
 export const toOrder = (record: RawRecord): Order => {

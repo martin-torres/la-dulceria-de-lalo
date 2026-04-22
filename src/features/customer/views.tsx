@@ -116,8 +116,22 @@ export const LandingView = ({
               <div className="p-4 flex-1">
                 <h3 className="font-bold text-lg text-gray-800">{item.name}</h3>
                 <p className="text-sm text-gray-500 line-clamp-1">{getItemDescription(item.id, item.description)}</p>
+                {item.bundleItems && item.bundleItems.length > 0 && (
+                  <div className="mt-1 space-y-0.5">
+                    {item.bundleItems.map((bundleItem: any, idx: number) => (
+                      <p key={idx} className="text-[10px] text-gray-400">
+                        {bundleItem.quantity}x {bundleItem.name}
+                      </p>
+                    ))}
+                  </div>
+                )}
                 <div className="flex items-center justify-between mt-1">
-                  <p className="font-black text-xl" style={{ color: secondaryColor }}>${item.price}</p>
+                  <div className="flex items-center gap-2">
+                    <p className="font-black text-xl" style={{ color: secondaryColor }}>${item.price}</p>
+                    {item.originalPrice && item.originalPrice > item.price && (
+                      <p className="text-sm text-gray-400 line-through">${item.originalPrice}</p>
+                    )}
+                  </div>
                   <span 
                     className="text-black px-4 py-1.5 rounded-lg text-xs font-bold"
                     style={{ backgroundColor: primaryColor }}
@@ -426,12 +440,21 @@ export const CheckoutView = ({
         <section className="bg-white p-5 rounded-2xl border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
           <div className="space-y-3">
             {cart.map((item: any) => (
-              <div key={item.id} className="flex items-center gap-3">
+              <div key={item.id} className="flex items-start gap-3">
                 <div className="w-12 h-12 rounded-lg overflow-hidden flex-shrink-0">
                   <img src={item.image} className="w-full h-full object-cover" alt={item.name} />
                 </div>
                 <div className="flex-1 min-w-0">
                   <h4 className="font-bold text-sm text-gray-800 truncate">{item.name}</h4>
+                  {item.isBundle && item.bundleItems && (
+                    <div className="mt-1 space-y-0.5">
+                      {item.bundleItems.map((bundleItem: any, idx: number) => (
+                        <p key={idx} className="text-[10px] text-gray-500">
+                          {bundleItem.quantity}x {bundleItem.name}
+                        </p>
+                      ))}
+                    </div>
+                  )}
                   {item.selectedOption && (
                     <p className="text-xs font-bold text-gray-500 truncate">{item.selectedOption.label}</p>
                   )}

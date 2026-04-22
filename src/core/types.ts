@@ -14,6 +14,13 @@ export type MenuCategory =
   | 'greenhouse_premium' | 'greenhouse_selecta' | 'living_soil' | 'hydro'
   | 'edibles' | 'prerolls' | 'infusionados' | 'hash_holes' | 'extractos' | 'vapes' | 'psicodelia';
 
+export interface BundleItem {
+  id: string;
+  name: string;
+  quantity: number;
+  price: number;
+}
+
 export interface PromoItem {
   id: string;
   name: string;
@@ -22,6 +29,10 @@ export interface PromoItem {
   category: 'promo';
   image: string;
   active: boolean;
+  bundleItems?: BundleItem[];
+  discountType?: 'fixed' | 'percent';
+  discountValue?: number;
+  originalPrice?: number;
 }
 
 export interface MenuItem {
@@ -53,6 +64,8 @@ export interface OrderItem extends MenuItem {
   quantity: number;
   weightInGrams?: number;
   selectedOption?: ItemOption;
+  isBundle?: boolean;
+  bundleItems?: BundleItem[];
 }
 
 export interface Order {

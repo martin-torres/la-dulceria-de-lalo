@@ -166,14 +166,22 @@ const App: React.FC = () => {
     if (scrollRef.current) scrollRef.current.scrollTo(0, 0);
   }, [activeScreen, viewMode]);
 
-  const addToCart = (item: MenuItem) => {
-    // Check if item is weight-based
-    if (item.isWeightBased || item.weightInGrams) {
-      // Open modal instead of adding to cart
+  const addToCart = (item: MenuItem | PromoItem) => {
+    if ('category' in item && item.category === 'promo' && item.bundleItems && item.bundleItems.length > 0) {
+      setCart(prev => {
+        const existing = prev.find(i => i.id === item.id);
+        if (existing) return prev.map(i => i.id === item.id ? { ...i, quantity: i.quantity + 1 } : i);
+        return [...prev, {
+          ...item,
+          quantity: 1,
+          isBundle: true,
+          bundleItems: item.bundleItems,
+        }];
+      });
+    } else if (item.isWeightBased || item.weightInGrams) {
       setSelectedWeightItem(item);
       setShowWeightModal(true);
     } else {
-      // Add normally to cart
       setCart(prev => {
         const existing = prev.find(i => i.id === item.id);
         if (existing) return prev.map(i => i.id === item.id ? { ...i, quantity: i.quantity + 1 } : i);
